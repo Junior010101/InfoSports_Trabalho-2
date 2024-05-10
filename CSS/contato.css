@@ -1,0 +1,277 @@
+html {
+    height: 100%;
+    margin-bottom: 0%;
+    display:grid
+}
+header {
+    background-color: rgb(88, 104, 197);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100px;
+}
+body {
+    min-height: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+
+}
+ul {
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+#nag {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+    background-color: lavender;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+    margin-left: 10px;
+    height: 15px;
+}
+#nag a {
+    color: black;
+}
+.nig a {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nig {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+div.space {
+    display: flex;
+    margin-left: auto;
+}
+.checkbox {
+    display: flex;
+}
+#na {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+div.black {
+    background-color: black;
+    width: 13px;
+    height: 13px;
+    border-radius: 50px;
+    margin-left: 3px;
+}
+footer {
+    margin-top: auto;
+    background-color: rgb(88, 104, 197);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+
+}
+.fof {
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+a.ciu {
+    color: white;
+}
+.cat {
+    padding: 10px 15px 10px 15px;
+    margin-left: auto;
+    margin-right: 1%;
+    border-radius: 50px;
+    background-color: rgba(204, 204, 236, 0.658);
+}
+a.pretu {
+    color: black;
+}
+body div.formu {
+    align-self: center;
+}
+body a.conta {
+    align-self: center;
+}
+div.formu{
+    height: 55%;
+    width: 40%;
+    border: 1px solid rgb(88, 104, 197);
+    border-radius: 15px;
+    margin-top: 1.8%;
+    display: grid;
+ }
+a.conta {
+    height: 8%;
+    width: 40%;
+    border: 1px solid rgb(88, 104, 197);
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 0.5%;
+    display: grid;
+    align-items: center;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 2%;
+    color: black;
+}
+h2.tate {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    margin-left: 4%;
+}
+button.nea {
+    margin-top: 15%;
+    width: 90%;
+    border-radius: 4px;
+    height: 8%;
+    border: 0px solid transparent;
+    background-color: rgb(88, 104, 197);
+    color: white;
+    margin-left: 5%;
+}
+input {
+    border-radius: 4px;
+    background-color: rgb(200, 200, 253);
+    border: 0px solid transparent;
+    border-bottom: 2px solid rgb(223, 216, 189);
+    border-right: 2px solid rgb(223, 216, 189);
+    padding-top: 1%;
+    padding-bottom: 0%;
+}
+textarea {
+    border-radius: 4px;
+    background-color: rgb(200, 200, 253);
+    border: 0px solid transparent;
+    border-bottom: 2px solid rgb(223, 216, 189);
+    border-right: 2px solid rgb(223, 216, 189);
+    padding-top: 1%;
+    padding-bottom: 0%;
+}
+div#ajust {
+    display: flex;
+}
+input.nira {
+    height: 25px;
+    width: 86%;
+    margin-left: 10.5%;
+}
+input.nika {
+    height: 25px;
+    width: 86%;
+    margin-left: 2%;
+}
+input.nia {
+    height: 25px;
+    width: 86%;
+    margin-left: 10.5%;
+}
+input.noa {
+    height: 25px;
+    width: 86%;
+    margin-left: 2%;
+}
+textarea.noka {
+    height: 60px;
+    width: 43%;
+    margin-left: 5.2%;
+    padding-top: 12px;
+}
+label.oi {
+    color: gray;
+    z-index: 2;
+    font-size: 11px;
+    position: static;
+    margin-left: -85.5%;
+    user-select: none;
+}
+label.io {
+    color: gray;
+    z-index: 2;
+    font-size: 11px;
+    position: static;
+    margin-left: -85.5%;
+    user-select: none;
+}
+label.ia {
+    color: gray;
+    z-index: 2;
+    font-size: 11px;
+    position: static;
+    margin-left: -85.5%;
+    user-select: none;
+}
+label.iu {
+    color: gray;
+    z-index: 2;
+    font-size: 11px;
+    position: static;
+    user-select: none;
+    margin-left: -85%;
+}
+label.uu {
+    color: gray;
+    z-index: 2;
+    font-size: 11px;
+    position: absolute;
+    user-select: none;
+    margin-left: -16.6%;
+    margin-top: 1%;
+}
+div.bili {
+    height: 10%;
+    width: 50%;
+    margin-bottom: 2.5%;
+}
+div.beli {
+    height: 10%;
+    width: 100%;
+}
+input.nira:focus,
+input.nira:valid {
+    border-bottom: 2px solid cornflowerblue;
+}
+input.nira:focus ~ label.oi,
+input.nira:valid ~ label.oi {
+    display: none;
+}
+input.nika:focus,
+input.nika:valid {
+    border-bottom: 2px solid cornflowerblue;
+}
+input.nika:focus ~ label.io,
+input.nika:valid ~ label.io {
+    display: none;
+}
+input.nia:focus,
+input.nia:valid {
+    border-bottom: 2px solid cornflowerblue;
+}
+input.nia:focus ~ label.ia,
+input.nia:valid ~ label.ia {
+    display: none;
+}
+input.noa:focus,
+input.noa:valid {
+    border-bottom: 2px solid cornflowerblue;
+}
+input.noa:focus ~ label.iu,
+input.noa:valid ~ label.iu {
+    display: none;
+}
+textarea.noka:focus,
+textarea.noka:valid {
+    border-bottom: 2px solid cornflowerblue;
+}
+textarea.noka:focus ~ label.uu,
+textarea.noka:valid ~ label.uu {
+    display: none;
+}

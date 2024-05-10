@@ -1,0 +1,121 @@
+html {
+    height: 100%;
+    margin-bottom: 0%;
+    display:grid
+}
+header {
+    background-color: rgb(88, 104, 197);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100px;
+}
+body {
+    min-height: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+#nag {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+    background-color: lavender;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+    margin-left: 10px;
+    height: 15px;
+}
+#nag a {
+    color: black;
+}
+.nig a {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nig {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+div.space {
+    display: flex;
+    margin-left: auto;
+}
+.checkbox {
+    display: flex;
+}
+#na {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+div.black {
+    background-color: black;
+    width: 13px;
+    height: 13px;
+    border-radius: 50px;
+    margin-left: 3px;
+}
+footer {
+    margin-top: auto;
+    background-color: rgb(88, 104, 197);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+
+}
+.fof {
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+a.ciu {
+    color: white;
+}
+.cat {
+    padding: 10px 15px 10px 15px;
+    margin-left: auto;
+    margin-right: 1%;
+    border-radius: 50px;
+    background-color: rgba(204, 204, 236, 0.658);
+}
+a.pretu {
+    color: black;
+}
+.titulo{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragrafo1 {
+    text-align: center;
+}
+div#bida {
+    border: 3px solid rgb(88, 104, 197);
+    background-color: rgb(223, 216, 189); 
+    width: 97%;
+    height: 200%;
+    align-self: center;
+    margin-bottom: 2px;
+    text-align: center;
+    padding-top: 15px;
+}
+img.boxes {
+    width: 97%;
+    height: 100%;
+}
+p.paragrafo2 {
+    text-align: start;
+    margin-left: 15px;
+    margin-right: 15px;
+}

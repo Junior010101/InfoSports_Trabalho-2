@@ -1,0 +1,202 @@
+html {
+    height: 100%;
+    margin-bottom: 0%;
+    display:grid;
+}
+header {
+    background-color: rgb(88, 104, 197);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100px;
+}
+body {
+    min-height: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+#nag {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+    background-color: lavender;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+    margin-left: 10px;
+    height: 15px;
+}
+#nag a {
+    color: black;
+}
+.nig a {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nig {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+div.space {
+    display: flex;
+    margin-left: auto;
+}
+.checkbox {
+    display: flex;
+}
+#na {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+img {
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+}
+div.cent {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+h2 {
+    margin-bottom: 0%;
+}
+p {
+    margin-top: 0%;
+}
+div.black {
+    background-color: black;
+    width: 13px;
+    height: 13px;
+    border-radius: 50px;
+    margin-left: 3px;
+}
+div.infocube {
+    width: 200px;
+    height: 320px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+div#sites {
+    height: 60%;
+    width: 76%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fom .fam {
+    display: grid;
+    justify-content: center;
+}
+.fom {
+    border: 1px solid rgb(88, 104, 197);
+    background-color: rgba(204, 204, 236, 0.658);
+    display: grid;
+    border-radius: 10px;
+    height: 600px;
+    width: 23%;
+    margin-left: 5px;
+}
+footer {
+    margin-top: auto;
+    background-color: rgb(88, 104, 197);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+
+}
+div#Pag1 {
+    display: flex;
+    margin-bottom: 10%;
+}
+.fof {
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+a.ciu {
+    color: white;
+}
+.cat {
+    padding: 10px 15px 10px 15px;
+    margin-left: auto;
+    margin-right: 1%;
+    border-radius: 50px;
+    background-color: rgba(204, 204, 236, 0.658);
+}
+a.pretu {
+    color: black;
+}
+input.neka {
+    height: 5%;
+    width: 95%;
+    border-radius: 4px;
+    background-color: rgb(200, 200, 253);
+    border: 0px solid transparent;
+    border-bottom: 2px solid rgb(223, 216, 189);
+    border-right: 2px solid rgb(223, 216, 189);
+    padding-top: 1%;
+    padding-bottom: 0%;
+}
+input.noka {
+    height: 5%;
+    width: 95%;
+    border-radius: 4px;
+    background-color: rgb(200, 200, 253);
+    border: 0px solid transparent;
+    border-bottom: 2px solid rgb(223, 216, 189);
+    border-right: 2px solid rgb(223, 216, 189);
+    padding-top: 1%;
+    padding-bottom: 0%;
+}
+button.ind {
+    border-radius: 10px;
+    height: 7%;
+    width: 70%;
+    border: 0px solid transparent;
+    background-color: rgb(88, 104, 197);
+    color: white;
+    margin-top: 5%;
+    font-size: 15px;
+}
+label.ai {
+    color: gray;
+    font-size: 11px;
+    margin-left: -97%;
+    position: static;
+    user-select: none;
+}
+label.ia {
+    color: gray;
+    margin-left: -97%;
+    font-size: 11px;
+    position: static;
+    user-select: none;
+}
+input.neka:focus,
+input.neka:valid {
+    border-bottom: 2px solid cornflowerblue;
+}
+input.neka:focus ~ label.ai,
+input.neka:valid ~ label.ai {
+    display: none;
+}
+input.noka:focus,
+input.noka:valid {
+    border-bottom: 2px solid cornflowerblue;
+}
+input.noka:focus ~ label.ia,
+input.noka:valid ~ label.ia {
+    display: none;
+}

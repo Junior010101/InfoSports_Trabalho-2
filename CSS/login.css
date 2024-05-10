@@ -1,0 +1,212 @@
+html {
+    height: 100%;
+    margin-bottom: 0%;
+    display:grid
+}
+header {
+    background-color: rgb(88, 104, 197);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100px;
+}
+body {
+    min-height: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+
+}
+ul {
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+#nag {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+    background-color: lavender;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+    margin-left: 10px;
+    height: 15px;
+}
+#nag a {
+    color: black;
+}
+.nig a {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nig {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+div.space {
+    display: flex;
+    margin-left: auto;
+}
+.checkbox {
+    display: flex;
+}
+#na {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+div.black {
+    background-color: black;
+    width: 13px;
+    height: 13px;
+    border-radius: 50px;
+    margin-left: 3px;
+}
+footer {
+    margin-top: auto;
+    background-color: rgb(88, 104, 197);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+
+}
+.fof {
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+a.ciu {
+    color: white;
+}
+.cat {
+    padding: 10px 15px 10px 15px;
+    margin-left: auto;
+    margin-right: 1%;
+    border-radius: 50px;
+    background-color: rgba(204, 204, 236, 0.658);
+}
+a.pretu {
+    color: black;
+}
+div#corpoL {
+    height: 100%;
+    background-color: rgba(204, 204, 236, 0.658);
+    display: grid;
+}
+div.corpoI {
+    background-color: white;
+    height: 70%;
+    width: 90%;
+}
+div#corpoL div.corpoI {
+    align-self: center;
+    margin-left: 5%;
+}
+div.formu{
+   height: 80%;
+   width: 45%;
+   border: 1px solid rgb(88, 104, 197);
+   border-radius: 15px;
+   text-align: center;
+   margin-top: 30px;
+   display: grid;
+}
+div.corpoI div.formu {
+    margin-left: 25%;
+}
+form {
+    height: 100%;
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+input.nia {
+    width: 60%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: rgb(200, 200, 253);
+    border: 0px solid transparent;
+    border-bottom: 2px solid rgb(223, 216, 189);
+    border-right: 2px solid rgb(223, 216, 189);
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-top: 5%;
+    position: relative;
+    z-index: 1;
+}
+input.noa {
+    width: 60%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: rgb(200, 200, 253);
+    border: 0px solid transparent;
+    border-bottom: 2px solid rgb(223, 216, 189);
+    border-right: 2px solid rgb(223, 216, 189);
+    position: relative;
+    padding-top: 1%;
+    position: relative;
+    z-index: 1;
+}
+button.nea {
+    margin-top: 10%;
+    width: 62%;
+    border-radius: 4px;
+    height: 10%;
+    border: 0px solid transparent;
+    background-color: rgb(88, 104, 197);
+    color: white;
+}
+label.ia {
+    color: gray;
+    font-size: 11px;
+    position: absolute;
+    margin-left: -23%;
+    margin-top: 2.5%;
+    z-index: 2;
+    margin-right: 0%;
+    user-select: none;
+}
+label.iu {
+    color: gray;
+    z-index: 2;
+    font-size: 11px;
+    position: absolute;
+    margin-left: -23%;
+    margin-right: 0%;
+    margin-top: 0.5%;
+    user-select: none;
+}
+input.nia:focus,
+input.nia:valid {
+    border-bottom: 2px solid cornflowerblue;
+}
+input.nia:focus ~ label.ia,
+input.nia:valid ~ label.ia {
+    z-index: -1;
+}
+input.noa:focus,
+input.noa:valid {
+    border-bottom: 2px solid cornflowerblue;
+}
+input.noa:focus ~ label.iu,
+input.noa:valid ~ label.iu {
+    z-index: -1;
+}
+div.bili {
+    width: 100%;
+    height: 7%;
+    border-radius: 4px;
+    margin-top: 12%;
+}
+div.bolo {
+    margin-top: 5px;
+    width: 100%;
+    height: 7%;
+    border-radius: 4px;
+}
