@@ -2,6 +2,7 @@ html {
     height: 100%;
     margin-bottom: 0%;
     display:grid;
+    margin-left: -3px;
 }
 header {
     background-color: rgb(88, 104, 197);
@@ -52,13 +53,6 @@ div.space {
     display: flex;
     margin-left: auto;
 }
-.checkbox {
-    display: flex;
-}
-#na {
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
 img {
     width: 200px;
     height: 130px;
@@ -74,13 +68,6 @@ h2 {
 }
 p {
     margin-top: 0%;
-}
-div.black {
-    background-color: black;
-    width: 13px;
-    height: 13px;
-    border-radius: 50px;
-    margin-left: 3px;
 }
 div.infocube {
     width: 200px;

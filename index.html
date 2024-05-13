@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InfoSports - Principal</title>
     <link rel="stylesheet" href="CSS/Index.css">
+    <link rel="stylesheet" href="CSS/darkmode.css">
     <link rel="shortcut icon" href="IMG/logo.ico" type="image/x-icon">
     <script src="JS/cauculo.js"></script>
+    <script src="JS/dark.js"></script>
 </head>
 <body>
   <header>
@@ -19,8 +21,16 @@
           <div id="nag"><a href="HTML/contato.html">Contato</a></div>
           <div id="na">
             <input type="checkbox" class="checkbox" id="chk"/>
-            <div class="black"><br></div>
+            <label class="black" for="chk">
+              <div class="sib">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>       
+              </div>
+
+              <div class="ball"></div>
+            </label>
           </div>
+          <script class="normal" src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
         </div>
       </ul>
     </nav>
