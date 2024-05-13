@@ -74,6 +74,7 @@ div.infocube {
     height: 320px;
     margin-left: 40px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 div#sites {
     height: 60%;

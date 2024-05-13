@@ -26,15 +26,17 @@ label.black {
     height: 16px;
     transform: scaleX(0px);
     transition: transform 0.2s linear;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
 }
 div.ball {
     z-index: 2;
-    margin-top: -8.7px;
-    margin-left: -13.6px;
+    margin-top: -61.5%;
+    margin-left: -96.7%;
     position: absolute;
 }
 .checkbox:checked + .black .ball {
-    transform: translateY(17px);
+    transform: translateY(16px);
 }
 .fa-moon {
     margin-left: 5px;
