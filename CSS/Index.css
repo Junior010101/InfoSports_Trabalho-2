@@ -4,6 +4,29 @@ html {
     display:grid;
     margin-left: -3px;
 }
+@media screen and (max-width: 500px){
+    #Pag1 {
+        flex-direction: column;
+    }
+    div#sites {
+        padding-right: 110px;
+        justify-content: center;
+    }
+    a.pretu {
+        width: 45%;
+
+    }
+    a#conserto {
+        margin-left: -22px;
+        margin-right: 55px;
+    }
+    div.fom {
+       margin-top: 320px;
+       width: 97%;
+       height: 20%;
+       margin-bottom: -20%;
+    }
+}
 header {
     background-color: rgb(88, 104, 197);
     border-top-left-radius: 10px;
