@@ -26,6 +26,10 @@ html {
        height: 20%;
        margin-bottom: -20%;
     }
+    div.nig {
+        margin-left: -25px;
+        margin-right: 5px;
+    }
 }
 header {
     background-color: rgb(88, 104, 197);
@@ -97,7 +101,7 @@ div.infocube {
     height: 320px;
     margin-left: 40px;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20%;
 }
 div#sites {
     height: 60%;
