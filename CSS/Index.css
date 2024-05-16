@@ -4,7 +4,7 @@ html {
     display:grid;
     margin-left: -3px;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
     #Pag1 {
         flex-direction: column;
     }
@@ -29,6 +29,9 @@ html {
     div.nig {
         margin-left: -25px;
         margin-right: 5px;
+    }
+    div.infocube {
+        margin-bottom: 10px;
     }
 }
 header {
