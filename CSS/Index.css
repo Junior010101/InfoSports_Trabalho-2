@@ -14,7 +14,8 @@ html {
     }
     a.pretu {
         width: 45%;
-
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
     a#conserto {
         margin-left: -22px;
