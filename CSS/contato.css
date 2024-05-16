@@ -1,7 +1,34 @@
 html {
     height: 100%;
     margin-bottom: 0%;
-    display:grid
+    display:grid;
+    margin-left: -3px;
+}
+@media screen and (max-width: 601px){
+    div.formu {
+        padding: 100px;
+    }
+    a.conta {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    h2.tate {
+        margin-top: -40px;
+        margin-bottom: 40px;
+    }
+    form {
+        width: 300px;
+        margin-left: -50px;
+    }
+    label.uu {
+        border: 1px solid red;
+    }
+}
+@media screen and (max-width: 650px){
+    div.nig {
+        margin-left: -25px;
+        margin-right: 5px;
+    }
 }
 header {
     background-color: rgb(88, 104, 197);
@@ -217,14 +244,18 @@ label.iu {
     user-select: none;
     margin-left: -85%;
 }
-label.uu {
+textarea::placeholder {
     color: gray;
     z-index: 2;
     font-size: 11px;
     position: absolute;
     user-select: none;
-    margin-left: -16.6%;
     margin-top: 1%;
+    justify-content: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 div.bili {
     height: 10%;

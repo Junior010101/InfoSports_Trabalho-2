@@ -2,6 +2,13 @@ html {
     height: 100%;
     margin-bottom: 0%;
     display:grid
+    margin-left: -3px;
+}
+@media screen and (max-width: 650px){
+    div.nig {
+        margin-left: -25px;
+        margin-right: 5px;
+    }
 }
 header {
     background-color: rgb(88, 104, 197);

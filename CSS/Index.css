@@ -11,6 +11,7 @@ html {
     div#sites {
         padding-right: 110px;
         justify-content: center;
+        margin-left: 19px;
     }
     a.pretu {
         width: 45%;
@@ -22,10 +23,10 @@ html {
         margin-right: 55px;
     }
     div.fom {
-       margin-top: 320px;
-       width: 97%;
+       margin-top: 380px;
+       width: 98%;
        height: 20%;
-       margin-bottom: -20%;
+       margin-bottom: -40%;
     }
     div.nig {
         margin-left: -25px;

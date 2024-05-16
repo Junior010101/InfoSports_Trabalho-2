@@ -1,7 +1,14 @@
 html {
     height: 100%;
     margin-bottom: 0%;
-    display:grid
+    display:grid;
+    margin-left: -3px;
+}
+@media screen and (max-width: 650px){
+    div.nig {
+        margin-left: -25px;
+        margin-right: 5px;
+    }
 }
 header {
     background-color: rgb(88, 104, 197);
@@ -18,7 +25,7 @@ body {
     margin-bottom: 0%;
     display: flex;
     flex-direction: column;
-
+    background-color: rgba(204, 204, 236, 0.658);
 }
 ul {
     display: flex;
@@ -94,19 +101,14 @@ a.ciu {
 a.pretu {
     color: black;
 }
-div#corpoL {
-    height: 100%;
-    background-color: rgba(204, 204, 236, 0.658);
-    display: grid;
-}
 div.corpoI {
+    margin-top: auto;
     background-color: white;
-    height: 70%;
+    height: 60%;
     width: 90%;
 }
-div#corpoL div.corpoI {
+body div.corpoI {
     align-self: center;
-    margin-left: 5%;
 }
 div.formu{
    height: 80%;
@@ -121,7 +123,8 @@ div.corpoI div.formu {
     margin-left: 25%;
 }
 form {
-    height: 100%;
+    height: 90%;
+    margin-top: auto;
 }
 div.bolo{
     margin-top: 5%;
@@ -130,17 +133,17 @@ div.bili {
     margin-top: 5%;
 }
 button.nea {
-    margin-top: 4%;
-    width: 62%;
+    margin-top: 5%;
+    width: 65.7%;
     border-radius: 4px;
-    height: 10%;
+    height: 30px;
     border: 0px solid transparent;
     background-color: rgb(88, 104, 197);
     color: white;
 }
 input.naa {
-    width: 60%;
-    height: 100%;
+    width: 65%;
+    height: 20px;
     border-radius: 4px;
     background-color: rgb(200, 200, 253);
     border: 0px solid transparent;
@@ -150,8 +153,8 @@ input.naa {
     padding-top: 1%;
 }
 input.nia {
-    width: 60%;
-    height: 100%;
+    width: 65%;
+    height: 20px;
     border-radius: 4px;
     background-color: rgb(200, 200, 253);
     border: 0px solid transparent;
@@ -161,8 +164,8 @@ input.nia {
     padding-top: 1%;
 }
 input.noa {
-    width: 60%;
-    height: 100%;
+    width: 65%;
+    height: 20px;
     border-radius: 4px;
     background-color: rgb(200, 200, 253);
     border: 0px solid transparent;
@@ -175,8 +178,8 @@ label.ai {
     position: absolute;
     color: gray;
     font-size: 11px;
-    margin-top: 0.3%;
-    margin-left: -23%;
+    margin-top: 0.6%;
+    margin-left: -25%;
     z-index: 2;
     user-select: none;
 }
@@ -184,8 +187,8 @@ label.ia {
     position: absolute;
     color: gray;
     font-size: 11px;
-    margin-top: 0.3%;
-    margin-left: -23%;
+    margin-top: 0.6%;
+    margin-left: -25%;
     z-index: 2;
     user-select: none;
 }
@@ -193,8 +196,8 @@ label.iu {
     position: absolute;
     color: gray;
     font-size: 11px;
-    margin-top: 0.3%;
-    margin-left: -23%;
+    margin-top: 0.6%;
+    margin-left: -25%;
     z-index: 2;
     user-select: none;
 }
