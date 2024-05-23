@@ -186,6 +186,7 @@ button.ind {
     color: white;
     margin-top: 5%;
     font-size: 15px;
+    cursor: pointer;
 }
 label.ai {
     color: gray;
