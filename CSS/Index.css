@@ -64,9 +64,12 @@ a {
     border-radius: 50px;
     margin-left: 10px;
     height: 15px;
+    cursor: pointer;
 }
 #nag a {
     color: black;
+    user-select: none;
+    cursor: pointer;
 }
 .nig a {
     color: white;

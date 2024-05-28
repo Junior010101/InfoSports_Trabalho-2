@@ -36,7 +36,7 @@ div.ball {
     position: absolute;
 }
 .checkbox:checked + .black .ball {
-    transform: translateY(16px);
+    transform: translateY(17px);
 }
 .fa-moon {
     margin-left: 5px;
