@@ -2,7 +2,9 @@ html {
     height: 100%;
     margin-bottom: 0%;
     display:grid;
-    margin-left: -3px;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
 }
 @media screen and (max-width: 650px){
     #Pag1 {
@@ -11,7 +13,19 @@ html {
     div#sites {
         padding-right: 110px;
         justify-content: center;
-        margin-left: 19px;
+        margin-left: 22px;
+    }
+    p.desc {
+        font-size: 1vh;
+    }
+    div.infocube {
+        padding-bottom: 20px;
+    }
+    div.nig {
+        display: none;
+    }
+    #nag {
+        width: 6.5vh;
     }
     a.pretu {
         width: 45%;
@@ -33,6 +47,14 @@ html {
         margin-right: 5px;
     }
 }
+@media screen and (min-width: 651px) {
+    a.icone {
+        display: none;
+    }
+}
+a:hover{
+    background-color: transparent;
+}
 header {
     background-color: rgb(88, 104, 197);
     border-top-left-radius: 10px;
@@ -41,6 +63,7 @@ header {
     margin-top: 0%;
     margin-bottom: 0%;
     height: 100px;
+    margin-left: 0px;
 }
 body {
     min-height: 100%;
@@ -56,7 +79,7 @@ a {
     text-decoration: none;
 }
 #nag {
-    margin-top: 15px;
+    margin-top: 18px;
     margin-bottom: 15px;
     color: black;
     background-color: lavender;
@@ -81,6 +104,20 @@ a {
     margin-bottom: 25px;
     padding-top: 10px;
 }
+a.icone {
+    margin-top: -5px;
+    width: 70px;
+    margin-left: -25px;
+    position: absolute;
+    background-color: rgb(77, 77, 156);
+    border-radius: 20px;
+}
+img.s {
+    width: 100%;
+    height: 100%;
+    margin-left: -1px;
+    margin-top: 5px;
+}
 div.space {
     display: flex;
     margin-left: auto;
@@ -104,13 +141,17 @@ p {
 div.infocube {
     width: 200px;
     height: 320px;
-    margin-left: 40px;
+    margin-left: 20px;
     border-radius: 10px;
     margin-bottom: 20%;
+    border: 10px solid transparent;
+}
+.infocube:hover {
+    background-color: rgba(128, 128, 128, 0.24);
 }
 div#sites {
     height: 60%;
-    width: 76%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -158,8 +199,12 @@ a.ciu {
 a.pretu {
     color: black;
 }
+form.foem {
+    display: flex;
+    flex-direction: column;
+}
 input.neka {
-    height: 5%;
+    height: 35px;
     width: 95%;
     border-radius: 4px;
     background-color: rgb(200, 200, 253);
@@ -170,7 +215,7 @@ input.neka {
     padding-bottom: 0%;
 }
 input.noka {
-    height: 5%;
+    height: 35px;
     width: 95%;
     border-radius: 4px;
     background-color: rgb(200, 200, 253);
@@ -182,28 +227,33 @@ input.noka {
 }
 button.ind {
     border-radius: 10px;
-    height: 7%;
-    width: 70%;
+    height: 6vh;
+    width: 80%;
     border: 0px solid transparent;
     background-color: rgb(88, 104, 197);
     color: white;
     margin-top: 5%;
     font-size: 15px;
     cursor: pointer;
+    align-self: center;
 }
 label.ai {
     color: gray;
     font-size: 11px;
-    margin-left: -97%;
-    position: static;
+    margin-left: 3px;
+    margin-top: 135px;
+    position: absolute;
     user-select: none;
+    width: 12vh;
 }
 label.ia {
     color: gray;
-    margin-left: -97%;
     font-size: 11px;
-    position: static;
+    margin-left: 3px;
+    margin-top: 235px;
+    position: absolute;
     user-select: none;
+    width: 12vh;
 }
 input.neka:focus,
 input.neka:valid {

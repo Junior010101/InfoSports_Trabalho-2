@@ -8,7 +8,6 @@ label.black {
     padding: 6px;
     width: 3px;
     border-radius: 10px;
-
 }
 .checkbox {
     position: absolute;
@@ -17,7 +16,8 @@ label.black {
 #na {
     margin-top: 20px;
     margin-bottom: 25px;
-    margin-left: 25px;
+    margin-left: 30px;
+    margin-right: 20px;
 }
 .black .ball {
     background-color: white;
@@ -26,12 +26,12 @@ label.black {
     height: 16px;
     transform: scaleX(0px);
     transition: transform 0.2s linear;
-    border-bottom: 1px solid gray;
-    border-right: 1px solid gray;
+    border-bottom: 0.1px solid gray;
+    border-right: 0.1px solid gray;
 }
 div.ball {
     z-index: 2;
-    margin-top: -61.5%;
+    margin-top: -10.1px;
     margin-left: -95%;
     position: absolute;
 }
