@@ -164,6 +164,7 @@ div#sites {
     background-color: rgba(204, 204, 236, 0.658);
     display: grid;
     border-radius: 10px;
+    padding-bottom: 20px;
     height: auto;
     width: 23%;
     margin-left: 5px;
@@ -280,7 +281,7 @@ input.noka:valid ~ label.ia {
 #saida {
     position: relative;
     border: 0px solid transparent;
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: transparent;
     border-top: 2px solid cornflowerblue;
     width: 250px;
