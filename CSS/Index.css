@@ -164,7 +164,6 @@ div#sites {
     background-color: rgba(204, 204, 236, 0.658);
     display: grid;
     border-radius: 10px;
-    padding-bottom: 20px;
     height: auto;
     width: 23%;
     margin-left: 5px;
@@ -175,7 +174,6 @@ footer {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: grid;
-
 }
 div#Pag1 {
     display: flex;
@@ -205,6 +203,7 @@ form.foem {
     flex-direction: column;
     user-select: none;
     height: auto;
+    padding-bottom: 20px;
 }
 input.neka {
     height: 35px;
@@ -287,7 +286,7 @@ input.noka:valid ~ label.ia {
     width: 250px;
 }
 #imc, #saude, #grau {
-    font-family: cursive;
+    font-family: Arial;
     font-size: 15px;
     user-select: text;
 }
