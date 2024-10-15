@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="CSS/Index.css">
     <link rel="stylesheet" href="CSS/darkmode.css">
     <link rel="shortcut icon" href="IMG/logo.ico" type="image/x-icon">
-    <script src="JS/cauculo.js"></script>
-    <script src="JS/dark.js"></script>
+    <script defer src="JS/cauculo.js"></script>
+    <script defer src="JS/dark.js"></script>
 </head>
 <body>
   <header>
@@ -111,16 +111,21 @@
     </div>
     <div class="fom">
       <div class="fam">
-        <form class="foem">
+        <form class="foem" id="formula">
           <h4>INDICE DE MASSA CORPORAL (IMC)</h4>
             <h4>Peso (KG)</h4>
-          <input required class="neka" type="number">
-          <label class="ai">Digite o peso...</label>
+          <input required step="0.01" class="neka" id="pesos" type="number">
+          <label class="ai" for="pesos">Digite o peso...</label>
             <h4>Altura (M)</h4>
-          <input required class="noka" type="number">
-          <label class="ia">Digite a altura...</label>
+          <input required step="0.01" class="noka" id="alturas" type="number">
+          <label class="ia" for="alturas">Digite a altura...</label>
           <br>
-          <button onclick="confirm" type="button" class="ind">Calcular</button>
+          <button type="submit" id="ind">Calcular</button>
+          <dialog id="saida">
+            <p id="imc"></p>
+            <p id="saude"></p>
+            <p id="grau"></p>
+          </dialog>
         </form>
       </div>
     </div>

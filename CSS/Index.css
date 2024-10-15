@@ -202,10 +202,12 @@ a.pretu {
 form.foem {
     display: flex;
     flex-direction: column;
+    user-select: none;
 }
 input.neka {
     height: 35px;
-    width: 95%;
+    width: 91%;
+    padding-left: 4%;
     border-radius: 4px;
     background-color: rgb(200, 200, 253);
     border: 0px solid transparent;
@@ -216,7 +218,8 @@ input.neka {
 }
 input.noka {
     height: 35px;
-    width: 95%;
+    width: 91%;
+    padding-left: 4%;
     border-radius: 4px;
     background-color: rgb(200, 200, 253);
     border: 0px solid transparent;
@@ -225,10 +228,10 @@ input.noka {
     padding-top: 1%;
     padding-bottom: 0%;
 }
-button.ind {
+button#ind {
     border-radius: 10px;
-    height: 6vh;
-    width: 80%;
+    height: 50px;
+    width: 250px;
     border: 0px solid transparent;
     background-color: rgb(88, 104, 197);
     color: white;
@@ -240,20 +243,22 @@ button.ind {
 label.ai {
     color: gray;
     font-size: 11px;
-    margin-left: 3px;
+    margin-left: 10px;
     margin-top: 135px;
     position: absolute;
     user-select: none;
     width: 12vh;
+    cursor: text;
 }
 label.ia {
     color: gray;
     font-size: 11px;
-    margin-left: 3px;
+    margin-left: 10px;
     margin-top: 235px;
     position: absolute;
     user-select: none;
     width: 12vh;
+    cursor: text;
 }
 input.neka:focus,
 input.neka:valid {
@@ -270,4 +275,17 @@ input.noka:valid {
 input.noka:focus ~ label.ia,
 input.noka:valid ~ label.ia {
     display: none;
+}
+#saida {
+    position: relative;
+    border: 0px solid transparent;
+    margin-top: 50px;
+    background-color: transparent;
+    border-top: 2px solid cornflowerblue;
+    width: 250px;
+}
+#imc, #saude, #grau {
+    font-family: cursive;
+    font-size: 15px;
+    user-select: text;
 }
