@@ -164,7 +164,7 @@ div#sites {
     background-color: rgba(204, 204, 236, 0.658);
     display: grid;
     border-radius: 10px;
-    height: 600px;
+    height: auto;
     width: 23%;
     margin-left: 5px;
 }
@@ -203,6 +203,7 @@ form.foem {
     display: flex;
     flex-direction: column;
     user-select: none;
+    height: auto;
 }
 input.neka {
     height: 35px;
