@@ -32,6 +32,9 @@ html {
         margin-bottom: 10px;
         margin-top: 10px;
     }
+    button#ind {
+        margin-bottom: 20px;
+    }
     a#conserto {
         margin-left: -22px;
         margin-right: 55px;
@@ -39,7 +42,7 @@ html {
     div.fom {
        margin-top: 380px;
        width: 98%;
-       height: 20%;
+       height: auto;
        margin-bottom: -40%;
     }
     div.nig {
@@ -207,6 +210,7 @@ form.foem {
     display: flex;
     flex-direction: column;
     user-select: none;
+    height: auto;
 }
 input.neka {
     height: 35px;
@@ -283,13 +287,13 @@ input.noka:valid ~ label.ia {
 #saida {
     position: relative;
     border: 0px solid transparent;
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: transparent;
     border-top: 2px solid cornflowerblue;
     width: 250px;
 }
 #imc, #saude, #grau {
-    font-family: cursive;
+    font-family: Arial;
     font-size: 15px;
     user-select: text;
 }
