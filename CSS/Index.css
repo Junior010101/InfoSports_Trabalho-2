@@ -57,8 +57,8 @@ a:hover{
 }
 header {
     background-color: rgb(88, 104, 197);
-    border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     width: 100%;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -72,11 +72,23 @@ body {
     display: flex;
     flex-direction: column;
 }
-ul {
+nav.header{
     display: flex;
+}
+ul{
+    display: flex;
+}
+ul.menu {
+    display: flex;
+    margin-left: auto;
+    margin-right: 40px;
 }
 a {
     text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
 }
 #nag {
     margin-top: 18px;
@@ -89,25 +101,22 @@ a {
     height: 15px;
     cursor: pointer;
 }
-#nag a {
-    color: black;
-    user-select: none;
-    cursor: pointer;
-}
 .nig a {
     color: white;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.nig {
-    margin-top: 10px;
+.nig{
+    margin-top: 25px;
     margin-bottom: 25px;
     padding-top: 10px;
+    margin-left: 40px;
+    position: absolute;
 }
 a.icone {
-    margin-top: -5px;
+    margin-top: 10px;
     width: 70px;
-    margin-left: -25px;
+    margin-left: 20px;
     position: absolute;
     background-color: rgb(77, 77, 156);
     border-radius: 20px;
@@ -117,10 +126,6 @@ img.s {
     height: 100%;
     margin-left: -1px;
     margin-top: 5px;
-}
-div.space {
-    display: flex;
-    margin-left: auto;
 }
 img {
     width: 200px;
@@ -164,7 +169,7 @@ div#sites {
     background-color: rgba(204, 204, 236, 0.658);
     display: grid;
     border-radius: 10px;
-    height: 600px;
+    height: auto;
     width: 23%;
     margin-left: 5px;
 }
@@ -174,7 +179,6 @@ footer {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: grid;
-
 }
 div#Pag1 {
     display: flex;

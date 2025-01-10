@@ -14,9 +14,8 @@ label.black {
     opacity: 0;
 }
 #na {
-    margin-top: 20px;
+    margin-top: 38px;
     margin-bottom: 25px;
-    margin-left: 30px;
     margin-right: 20px;
 }
 .black .ball {
@@ -32,7 +31,7 @@ label.black {
 div.ball {
     z-index: 2;
     margin-top: -10.1px;
-    margin-left: -95%;
+    margin-left: -14.7px;
     position: absolute;
 }
 .checkbox:checked + .black .ball {
