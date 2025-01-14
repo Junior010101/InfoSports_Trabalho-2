@@ -1,7 +1,6 @@
 label.black {
     cursor: pointer;
     display: flex;
-    justify-content: space-between;
     position: relative;
     transform: scale(1.5);
     height: 15px;
